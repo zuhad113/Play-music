@@ -1,0 +1,5 @@
+/music-player
+    ├── index.html
+    ├── style.css
+    └── music
+        └── your-music-file.mp3

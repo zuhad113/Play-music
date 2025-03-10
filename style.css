@@ -1,0 +1,45 @@
+    body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.alands.xyz/files/67ca6e1f73eba147bd015867?&filename=1741319708054.jpeg'); /* Ganti dengan nama file gambar Anda */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
+    background-position: center; /* Mengatur posisi gambar di tengah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white; /* Mengubah warna teks menjadi putih agar terlihat di latar belakang */
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Menambahkan transparansi pada latar belakang kontainer */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.album-cover {
+    width: 200px; /* Atur lebar gambar album */
+    height: 200px; /* Atur tinggi gambar album */
+    border-radius: 10px; /* Membuat sudut gambar menjadi bulat */
+    margin-bottom: 20px; /* Jarak antara gambar dan elemen di bawahnya */
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
